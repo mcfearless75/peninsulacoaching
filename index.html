@@ -860,6 +860,59 @@
 
     @media(max-width:1024px) { .nutrition-grid{grid-template-columns:1fr;gap:3rem} .phone-mockup{width:200px} }
     @media(max-width:768px) { .coaching-pillars{grid-template-columns:repeat(2,1fr)} }
+
+    /* === iStrive rebrand overrides === */
+
+    /* Floating watermark logo behind hero text */
+    .hero { position: relative; overflow: hidden; }
+    .hero-logo-bg {
+      position: absolute;
+      top: 50%; left: 50%;
+      width: clamp(420px, 65vw, 880px);
+      height: auto;
+      transform: translate(-50%, -50%);
+      opacity: 0.07;
+      filter: invert(1) brightness(1.2) blur(0.5px);
+      pointer-events: none;
+      z-index: 0;
+      animation: heroLogoFloat 9s ease-in-out infinite;
+      mix-blend-mode: screen;
+    }
+    @keyframes heroLogoFloat {
+      0%   { transform: translate(-50%, -52%) rotate(-0.5deg); }
+      50%  { transform: translate(-50%, -48%) rotate(0.5deg); }
+      100% { transform: translate(-50%, -52%) rotate(-0.5deg); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-logo-bg { animation: none; }
+    }
+
+    /* Hero text sits ABOVE the watermark */
+    .hero-container { position: relative; z-index: 1; }
+    .hero-content   { position: relative; z-index: 1; }
+
+    /* Bigger, punchier headline */
+    .hero-headline {
+      font-size: clamp(3.5rem, 11vw, 9rem) !important;
+      line-height: 0.88 !important;
+      letter-spacing: -0.02em !important;
+      font-weight: 900 !important;
+      text-shadow: 0 4px 30px rgba(0,0,0,0.6);
+    }
+    .headline-word { display: block; }
+    .hero-sub {
+      font-size: clamp(1.1rem, 2.2vw, 1.5rem) !important;
+      margin-top: 1rem !important;
+    }
+    .hero-desc {
+      font-size: clamp(0.95rem, 1.5vw, 1.15rem) !important;
+      max-width: 42rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero-headline { font-size: clamp(3rem, 14vw, 5rem) !important; }
+      .hero-logo-bg  { width: 110vw; opacity: 0.05; }
+    }
   </style>
 </head>
 <body>
@@ -1054,14 +1107,10 @@
   <div class="hero-ring"></div>
   <div class="hero-ring"></div>
 
+  <img src="images/istrive1.png" alt="" aria-hidden="true" class="hero-logo-bg" />
+
   <div class="hero-container">
     <div class="hero-content">
-      <img
-        src="images/istrive1.png"
-        alt="iStrive"
-        class="hero-logo"
-        style="width:clamp(180px,28vw,320px);height:auto;display:block;margin:0 auto 1.5rem;filter:invert(1) brightness(1.05);"
-      />
       <div class="hero-tag"><span class="hero-tag-dot"></span> Wirral-Based Football Performance</div>
       <h1 class="hero-headline">
         <span class="headline-word"><span>Be</span></span>
