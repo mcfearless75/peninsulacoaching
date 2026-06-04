@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://peninsulacoaching.co.uk/sitemap.xml
+Sitemap: https://istrive-coaching.co.uk/sitemap.xml
