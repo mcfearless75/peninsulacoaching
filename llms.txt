@@ -1,0 +1,41 @@
+# iStrive
+
+> Position-tailored football coaching, strength & conditioning, and nutrition guidance on the Wirral. Be your best.
+
+## About
+
+iStrive is a Wirral-based football performance coaching service led by Alan Greaves — UEFA A Licence coach, Level 4 Strength & Conditioning Coach, and UEFA Elite Coach Educator. iStrive delivers one-to-one and online coaching built around the individual needs of each footballer, from grassroots to semi-professional level. The approach combines technical football development, elite physical conditioning, nutrition tracking, and mental performance to help players become stronger, faster, fitter, and more confident on and off the pitch throughout the full season.
+
+## Services
+
+- One-to-one football coaching (position-tailored)
+- Online football coaching
+- Strength and conditioning
+- Online pre-season programmes
+- Elite 1-2-1 coaching sessions
+- Complete athlete development
+- Nutrition guidance and tracking
+- Mobility training
+- Mental performance coaching
+- Development Programme — £50/month
+- Performance Programme — £100/month
+- Elite Performance Programme — £200/month
+
+## Key Pages
+
+- Home: https://istrive-coaching.co.uk/
+- Book a Session / Enquire: https://istrive-coaching.co.uk/#contact
+- Programmes & Pricing: https://istrive-coaching.co.uk/#programmes
+- About Alan Greaves: https://istrive-coaching.co.uk/#about
+- Coaching Services: https://istrive-coaching.co.uk/#coaching
+- Nutrition Tracking: https://istrive-coaching.co.uk/#nutrition
+
+## Coverage / Location
+
+iStrive operates primarily on the Wirral, Merseyside, United Kingdom (lat: 53.37, lng: -3.07). Online coaching is available to players anywhere in the UK and internationally.
+
+## Contact
+
+- Email: info@istrive-coaching.co.uk
+- Instagram: https://www.instagram.com/istrivecoaching/
+- Website: https://istrive-coaching.co.uk/
